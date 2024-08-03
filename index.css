@@ -1,7 +1,37 @@
-html{
-    background-color: black;
-    box-shadow: #6424B9;
+body{
+    background-color: rgb(0, 0, 0);
+  margin: 0;
 }
+.bg-area{
+    position: fixed;
+    left: -50%;
+    right: -50%;
+    top: 0;
+    bottom: 0;
+    animation:animate 5s ease-in-out infinite alternate;
+    background: linear-gradient(90deg, #17032d 50%, #2a004e -50%);
+    opacity: .5;
+    z-index: -1;
+}
+
+.layer-2{
+    animation-direction: alternate-reverse;
+    animation-duration: 3s;
+}
+.layer-3{
+   
+    animation-duration: 5s;
+}
+
+@keyframes animate{ 
+    0%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(50%);
+    }
+}
+
 .heading{
 display: flex;
 flex-direction: row;
