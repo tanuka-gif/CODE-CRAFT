@@ -10,7 +10,7 @@ body{
     top: 0;
     bottom: 0;
     animation:animate 5s ease-in-out infinite alternate;
-    background: linear-gradient(90deg, #17032d 50%, #2a004e -50%);
+    background: linear-gradient(90deg, #2a084f 50%, #490985 -50%);
     opacity: .5;
     z-index: -1;
 }
@@ -88,6 +88,8 @@ color: white;
 .Gunshot{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+   
    
     
 
@@ -98,19 +100,22 @@ color: white;
     font-size: 30px;
     font-weight: 200;
     padding-left: 30%;
+    padding-top: 10px;
    
 
 }
 .Completed{
- width: 386px;
+ /* width: 386px;
 height: 125px;
 top: 549px;
 left: 848px;
 gap: 0px;
-opacity: 0px;
+opacity: 0px; */
 background: linear-gradient(90deg, rgba(140, 0, 153, 0) 0%, #6424B9 100%);
-margin-bottom: 50px;
-margin-left: 1050px;
+margin-top: 310px;
+margin-left: 135px;
+/* margin-bottom: 50px;
+margin-left: 1050px; */
 
 }
 
@@ -122,6 +127,7 @@ margin-left: 1050px;
     line-height: 25.52px;
     text-align: left;
     margin-left: 30px;
+    margin-top: 150px;
 }
 
 #Vacancies{
@@ -217,6 +223,7 @@ text-align: left;
     flex-direction: row;
     justify-content: center;
     gap: 10px;
+    padding-top: 30px;
     
 }
 
@@ -348,10 +355,29 @@ text-align: center;
 }
 .hello{
   font-family:"Keania One";
-padding-top: 20px;
+padding-bottom: 10px;
 
 }
 #sun{
   font-family:"Space Grotesk", sans-serif ;
   font-size: 20px;
+}
+#first{
+  padding-top: ;
+}
+
+.low{
+  margin-top: 10px;
+}
+.hand{
+margin-top: 300px;
+font-family:"Space Grotesk", sans-serif ;
+font-size: 20px;
+font-weight: 400;
+line-height: 25.52px;
+text-align: left;
+
+}
+#foot{
+  margin-top: 0;
 }
