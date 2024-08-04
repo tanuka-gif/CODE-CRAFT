@@ -1,6 +1,7 @@
 body{
     background-color: rgb(0, 0, 0);
   margin: 0;
+  font-family: "Space Grotesk", sans-serif;
 }
 .bg-area{
     position: fixed;
@@ -70,12 +71,13 @@ align-items: center;
     justify-content: center;
     justify-content: space-between;
     font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 
 #tap{
 color: white;
- font-family: "Amita", serif;
+ font-family:"Keania One", sans-serif;
     font-size: 161px;
     font-weight: 400;
     line-height: 171.6px;
@@ -109,6 +111,7 @@ opacity: 0px;
 background: linear-gradient(90deg, rgba(140, 0, 153, 0) 0%, #6424B9 100%);
 margin-bottom: 50px;
 margin-left: 1050px;
+
 }
 
 .sky{
@@ -218,11 +221,9 @@ text-align: left;
 }
 
 #pics{
-    display: grid;
-    display: flex;
+      display: flex;
     flex-direction: row;
-    grid-template-columns: 1;
-        justify-content: center;
+            justify-content: center;
         overflow: hidden;
         gap: 20px 20px;
 }
@@ -314,10 +315,11 @@ line-height: 122.5px;
 text-align: center;
   }
   .flow{
-    padding-left:510px;
+    padding-left:35%;
   }
   #form-actions{
-    padding-left: 700px;
+    
+    margin-left:47%;
   }
 
   @media (max-width:768px){
@@ -327,15 +329,26 @@ text-align: center;
     }
     .tree{
       flex-direction:column;
+      margin-left: 15%;
     }
     #pics{
       flex-direction:column;
+      margin-left: 30%;
     }
-    .flow{
-      padding-left: 170px;
-    }
+    /* .flow{
+     margin-left: 15%; */
+    /* } */
     #Register{
       margin-right: 700px;
     }
 
   }
+.image{
+  padding-bottom: 20px;
+}
+.hello{
+  font-family:"Keania One";}
+#sun{
+  font-family:"Space Grotesk", sans-serif ;
+  font-size: 26px;
+}
