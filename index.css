@@ -116,7 +116,7 @@ margin-left: 1050px;
 
 .sky{
     color: white;
-    font-family: "Amita", serif;
+    font-family: "font-family: Space Grotesk";
     font-size: 20px;
     font-weight: 400;
     line-height: 25.52px;
@@ -190,7 +190,7 @@ top: 1378px;
 left: 71px;
 gap: 0px;
 opacity: 0px;
-font-family: Space Grotesk;
+font-family:"Space Grotesk";
 font-size: 20px;
 font-weight: 400;
 line-height: 25.52px;
@@ -347,8 +347,10 @@ text-align: center;
   padding-bottom: 20px;
 }
 .hello{
-  font-family:"Keania One";}
+  font-family:"Keania One";
+padding-top: 20px;
+
 #sun{
   font-family:"Space Grotesk", sans-serif ;
-  font-size: 26px;
+  font-size: 20px;
 }
